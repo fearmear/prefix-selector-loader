@@ -1,6 +1,6 @@
 {
   "name": "prefix-selector-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader for PostCSS plugin postcss-prefix-selector",
   "main": "index.js",
   "scripts": {
