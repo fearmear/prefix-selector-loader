@@ -11,10 +11,10 @@
     "url": "git+https://github.com/fearmear/prefix-selector-loader.git"
   },
   "keywords": [
+    "postcss",
     "prefix",
-    "css",
     "namespace",
-    "css"
+    "webpack loader"
   ],
   "author": "Dmitry Negodyaev <fearmear@gmail.com>",
   "license": "MIT",
@@ -22,7 +22,9 @@
     "url": "https://github.com/fearmear/prefix-selector-loader/issues"
   },
   "homepage": "https://github.com/fearmear/prefix-selector-loader#readme",
-  "devDependencies": {
-    "postcss-prefix-selector": "^1.4.0"
+  "dependencies": {
+    "postcss": "^5.0.21",
+    "postcss-prefix-selector": "^1.4.0",
+    "loader-utils": "^0.2.14"
   }
 }

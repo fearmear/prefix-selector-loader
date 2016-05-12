@@ -1,11 +1,9 @@
 var postcss = require('postcss');
 var prefix = require('postcss-prefix-selector');
+var loaderUtils = require("loader-utils");
 
 module.exports = function(source) {
-    this.cacheable();
-    var out = postcss().use(prefix({
-        prefix: '.some-selector ',
-        exclude: ['.c']
-    })).process(source).css;
-    return source;
+    this.cacheable && this.cacheable();
+    var query = loaderUtils.parseQuery(this.query);
+    return postcss().use(prefix(query)).process(source).css;
 };
