@@ -1,0 +1,28 @@
+{
+  "name": "prefix-selector-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader for PostCSS plugin postcss-prefix-selector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fearmear/prefix-selector-loader.git"
+  },
+  "keywords": [
+    "prefix",
+    "css",
+    "namespace",
+    "css"
+  ],
+  "author": "Dmitry Negodyaev <fearmear@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fearmear/prefix-selector-loader/issues"
+  },
+  "homepage": "https://github.com/fearmear/prefix-selector-loader#readme",
+  "devDependencies": {
+    "postcss-prefix-selector": "^1.4.0"
+  }
+}
